@@ -1,0 +1,107 @@
+#           ░░░░░██╗░█████╗░██╗███╗░░██╗  ░█████╗░███╗░░██╗██████╗░  ██╗░░░░░███████╗░█████╗░██╗░░░██╗███████╗
+#           ░░░░░██║██╔══██╗██║████╗░██║  ██╔══██╗████╗░██║██╔══██╗  ██║░░░░░██╔════╝██╔══██╗██║░░░██║██╔════╝
+#           ░░░░░██║██║░░██║██║██╔██╗██║  ███████║██╔██╗██║██║░░██║  ██║░░░░░█████╗░░███████║╚██╗░██╔╝█████╗░░
+#           ██╗░░██║██║░░██║██║██║╚████║  ██╔══██║██║╚████║██║░░██║  ██║░░░░░██╔══╝░░██╔══██║░╚████╔╝░██╔══╝░░
+#           ╚█████╔╝╚█████╔╝██║██║░╚███║  ██║░░██║██║░╚███║██████╔╝  ███████╗███████╗██║░░██║░░╚██╔╝░░███████╗
+#           ░╚════╝░░╚════╝░╚═╝╚═╝░░╚══╝  ╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░  ╚══════╝╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝
+#
+#           ███╗░░░███╗███████╗░██████╗░██████╗░█████╗░░██████╗░███████╗░██████╗
+#           ████╗░████║██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝░██╔════╝██╔════╝
+#           ██╔████╔██║█████╗░░╚█████╗░╚█████╗░███████║██║░░██╗░█████╗░░╚█████╗░
+#           ██║╚██╔╝██║██╔══╝░░░╚═══██╗░╚═══██╗██╔══██║██║░░╚██╗██╔══╝░░░╚═══██╗
+#           ██║░╚═╝░██║███████╗██████╔╝██████╔╝██║░░██║╚██████╔╝███████╗██████╔╝
+#           ╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═════╝░╚═╝░░╚═╝░╚═════╝░╚══════╝╚═════╝░
+
+Join:
+  JoinMessage: "&7[&a&l+&7] &f&l%player%" #Player Name = %player%
+  Enable: true
+
+
+
+Title:
+  Enable: true
+  UPCase: "&b&lgg " #Player Name = %player%
+  DownCase: "&fgg" #Player Name = %player%
+  Fadein: 20
+  Stay: 100
+  Fadeout: 20
+
+
+Leave:
+  LeaveMessage: "&7[&c&l-&7] &f&l%player%" #Player Name = %player%
+  Enable: true
+
+
+
+  
+
+#         ░██████╗██████╗░░█████╗░░██╗░░░░░░░██╗███╗░░██╗
+#         ██╔════╝██╔══██╗██╔══██╗░██║░░██╗░░██║████╗░██║
+#         ╚█████╗░██████╔╝███████║░╚██╗████╗██╔╝██╔██╗██║
+#         ░╚═══██╗██╔═══╝░██╔══██║░░████╔═████║░██║╚████║
+#         ██████╔╝██║░░░░░██║░░██║░░╚██╔╝░╚██╔╝░██║░╚███║
+#         ╚═════╝░╚═╝░░░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░░╚══╝
+
+
+Conditions:
+  bypass-cooldown-ops: true
+  check-location: true
+  cooldown: 3
+  period-nofalldamage: 2
+  prevent-falldamage: true
+  prevent-tpall-ops: false
+  spawn-onDeath: true
+  spawn-onJoin: true
+  spawn-onVoid: true
+
+###########################################################################################
+Toggle:
+  esmspawn-permission: true
+  spawn-permission: false
+  disable-onMoveEvent: false
+  enable-setfirstspawn-command: true
+  enable-setspawn-command: true
+  #enable-setplot-command: true
+  #enable-setafk-command: true
+  #enable-afk-command: true
+
+###########################################################################################
+Effect:
+  enabled: false
+  particle: ""
+  power: 2
+
+Sound:
+  enabled: false
+  music: "LEVEL_UP"
+  volume: 5
+  pitch: 1
+
+
+SS:
+  ban-message: "sbk %target_ss% :)"
+  SetCommand: true
+  Time: 10
+  ss-removed: "&4&lss-removed"
+  ss-discord: "&b&lᴛʜɪѕ ᴍᴇѕѕᴀɢᴇ ʀᴇᴘᴇᴀᴛ ꜰᴏʀ 6 ᴛɪᴍᴇѕ ᴘʟᴇᴀѕᴇ ᴊᴏɪɴ (ѕѕ) ᴠᴏɪᴄᴇ ʀᴏᴏᴍ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ʙᴀɴᴇᴅ &3&lhttps://discord.gg/mixelsmc"
+
+
+BlockReset:
+  Enabled: false
+  Time: 300
+  World:
+    - "World"
+
+
+BroadCast:
+  Enable: true
+  Fadein: 20
+  Stay: 100
+  Fadeout: 20
+  Title: "&7&lExcellent Server Manager"
+
+
+NightVision:
+  Enabled: true
+  DisableMessage: "&7[&c&l!&7] &f&lNight Vision Disabled"
+  EnableMessage: "&7[&a&l!&7] &f&lNight Vision Enabled"

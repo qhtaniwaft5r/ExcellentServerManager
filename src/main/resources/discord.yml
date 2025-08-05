@@ -1,0 +1,71 @@
+Discord:
+  Enabled: false
+  Token: "MTM5OTgzMTUyMjQxNjEzMjE0Ng.Gevr4c.-Xlx92sZLpMS4x7m3Dc52VueOl3ovcacWqPXp0"
+  Activity: "ExcellentServerManager"
+  guild-id: 1348684040256880740
+  # Discord channel ID for chat relay
+  chat-channel-id: 1348684041104392318
+  # The voice channel when the server start bot join it
+  Voice-ChannelID: 1348684040332640345
+Server-Status:
+  Enabled: true
+  ChannelID: 1348684040747745398
+  Server-Ip: "Abo876MC.com"
+  Server-Port: 25565
+# ChannelIDs
+Server: 1348684040919846978
+Chat: 1348684040919846978
+Death: 1348684040919846978
+Join: 1348684040919846978
+Leave: 1348684040919846978
+#Commands ChannelIDs
+command-Full: 1348684040919846978
+command-Op: 1348684040919846978
+command-LuckPerms: 1348684040919846978
+command-irp: 1348684040919846978
+command-kick: 1348684040919846978
+command-ban: 1348684040919846978
+command-mute: 1348684040919846978
+command-invsee: 1348684040919846978
+command-SS: 1348684040919846978
+
+role-permissions:
+  # Example: Discord role ID -> LuckPerms permission/group
+  "1348684040298959042": "admin"
+  "1348684040332640337": "co-owner"
+  "1348684040332640339": "owner"
+
+
+nickname:
+  enabled: true
+  format: "{username} | {minecraft_name}"
+
+settings:
+  # Send join/leave messages to Discord
+  join-leave-messages: true
+
+  # Enable chat relay between Discord and Minecraft
+  chat-relay: true
+
+  # Auto-sync roles when player joins
+  auto-sync-roles: true
+
+  # Sync bans between Discord and Minecraft
+  sync-bans: true
+
+  # Enable role change notifications
+  role-change-notifications: true
+
+  # Sync roles between Discord and Minecraft
+  sync-roles: true
+
+  # Verified role when player verifies its get the role in discord
+  verify-roleID: 1401393382181572638
+
+# Advanced Settings
+advanced:
+  # Debug mode (enables verbose logging)
+  debug: false
+
+  # Allow players to use Discord commands in game
+  allow-discord-commands: false

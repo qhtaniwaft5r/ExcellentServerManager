@@ -1,0 +1,93 @@
+name: ExcellentServerManager
+version: '2.3'
+main: org.abo876.excellentServerManager.ExcellentServerManager
+api-version: '1.19'
+authors: [ my discord user name .5_05 ]
+description: This is the best plugin in the world By Abo876
+website: https://github.com/qhtaniwaft5r
+softdepend: [ LuckPerms ]
+
+commands:
+
+  excellentservermanager:
+    permission: op
+    aliases: [excellentserverm, excellentsm, esm, excellentsmanager, eserverm, eservermanager, esmanager]
+    description: /excellentservermanager reload , tpall , tp <player>
+
+  setspawn:
+    permission: op
+    permission-message: you dont have permission
+    description: /setspawn
+  setfirstspawn:
+    permission: op
+    permission-message: you dont have permission
+    description: /setfirstspawn
+  spawn:
+    description: </spawn> to teleport you to the spawn
+  ss:
+    permission: op
+    description: /ss
+  setss:
+    description: /setss
+  #afk:
+  bc:
+    aliases:
+      - broadcast
+      - bcast
+      - broadc
+    description: /bc <message>
+  nightvision:
+    aliases:
+      - nv
+      - nightv
+      - nvision
+    description: /nightvision
+  link:
+    description: Link your Discord account to Minecraft
+    usage: /link
+    permission: discordlink.link
+
+  unlink:
+      description: Unlink your Discord account from Minecraft
+      usage: /unlink
+      permission: discordlink.unlink
+
+  linked:
+      description: Check your linked Discord account information
+      usage: /linked
+      permission: discordlink.linked
+
+
+
+
+permissions:
+  discordlink.*:
+    description: Gives access to all DiscordLink commands
+    children:
+      discordlink.link: true
+      discordlink.unlink: true
+      discordlink.linked: true
+      discordlink.chat: true
+    default: false
+
+  discordlink.link:
+    description: Allows linking Discord account
+    default: true
+
+  discordlink.unlink:
+    description: Allows unlinking Discord account
+    default: true
+
+  discordlink.linked:
+    description: Allows checking linked account status
+    default: true
+
+  discordlink.chat:
+    description: Allows sending messages to Discord chat
+    default: true
+
+  excellentservermanager.player.verify:
+    description: To know the player is verified or not
+    default: true
+
+
