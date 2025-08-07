@@ -1,39 +1,41 @@
 Discord:
   Enabled: false
-  Token: "MTM5OTgzMTUyMjQxNjEzMjE0Ng.Gevr4c.-Xlx92sZLpMS4x7m3Dc52VueOl3ovcacWqPXp0"
+  Token: "Token Here"
   Activity: "ExcellentServerManager"
-  guild-id: 1348684040256880740
+  guild-id: 0000000000000000000
+
   # Discord channel ID for chat relay
-  chat-channel-id: 1348684041104392318
+  chat-channel-id: 0000000000000000000
   # The voice channel when the server start bot join it
-  Voice-ChannelID: 1348684040332640345
+  Voice-ChannelID: 0000000000000000000
 Server-Status:
   Enabled: true
-  ChannelID: 1348684040747745398
+  ChannelID: 0000000000000000000
   Server-Ip: "Abo876MC.com"
   Server-Port: 25565
 # ChannelIDs
-Server: 1348684040919846978
-Chat: 1348684040919846978
-Death: 1348684040919846978
-Join: 1348684040919846978
-Leave: 1348684040919846978
+Server: 0000000000000000000
+Chat: 0000000000000000000
+Death: 0000000000000000000
+Join: 0000000000000000000
+Leave: 0000000000000000000
+Ban: 0000000000000000000
 #Commands ChannelIDs
-command-Full: 1348684040919846978
-command-Op: 1348684040919846978
-command-LuckPerms: 1348684040919846978
-command-irp: 1348684040919846978
-command-kick: 1348684040919846978
-command-ban: 1348684040919846978
-command-mute: 1348684040919846978
-command-invsee: 1348684040919846978
-command-SS: 1348684040919846978
+command-Full: 0000000000000000000
+command-Op: 0000000000000000000
+command-LuckPerms: 0000000000000000000
+command-irp: 0000000000000000000
+command-kick: 0000000000000000000
+command-ban: 0000000000000000000
+command-mute: 0000000000000000000
+command-invsee: 0000000000000000000
+command-SS: 0000000000000000000
 
 role-permissions:
   # Example: Discord role ID -> LuckPerms permission/group
-  "1348684040298959042": "admin"
-  "1348684040332640337": "co-owner"
-  "1348684040332640339": "owner"
+  "1000000000000000000": "admin"
+  "2000000000000000000": "co-owner"
+  "3000000000000000000": "owner"
 
 
 nickname:
@@ -60,7 +62,7 @@ settings:
   sync-roles: true
 
   # Verified role when player verifies its get the role in discord
-  verify-roleID: 1401393382181572638
+  verify-roleID: 0000000000000000000
 
 # Advanced Settings
 advanced:
